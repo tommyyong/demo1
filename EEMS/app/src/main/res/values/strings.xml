@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EEMS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="company_name">华翔翔能电气股份有限公司</string>
+    <string name="project_name">智能能源管理</string>
+    <string name="real_time_data">实时数据</string>
+    <string name="daily_report">日报表</string>
+    <string name="weekly_report">周报表</string>
+    <string name="monthly_report">月报表</string>
+    <string name="time_report">时段报表</string>
+    <string name="warning_notice">告警通知</string>
+    <string name="log_out">退出</string>
+    <string name="account">输入账号</string>
+    <string name="password">输入密码</string>
+    <string name="login">登 录</string>
+    <string name="register2">注册新帐号</string>
+</resources>

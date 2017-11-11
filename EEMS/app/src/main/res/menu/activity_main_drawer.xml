@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/real_time_data"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/real_time_data" />
+        <item
+            android:id="@+id/daily_report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/daily_report" />
+        <item
+            android:id="@+id/weekly_report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/weekly_report" />
+        <item
+            android:id="@+id/monthly_report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/monthly_report" />
+        <item
+            android:id="@+id/time_report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/time_report" />
+        <item
+            android:id="@+id/warning_notice"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/warning_notice" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/log_out" />
+
+
+    </group>
+
+
+
+</menu>
