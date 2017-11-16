@@ -51,53 +51,33 @@ public class RTDetailActivity extends FragmentActivity {
         initData();
     }
 
-//    @Subscribe
-//    public void onEvent(Bundle bundle) {
-//        item_detail_rt_objectname.setText(bundle.getString(" item_detail_rt_objectname"));
-//        item_detail_rt_ymd.setText(bundle.getString(" item_detail_rt_ymd"));
-//        item_detail_rt_hm.setText(bundle.getString(" item_detail_rt_hm"));
-//
-//        item_detail_rt_phase_voltage_a.setText(bundle.getString(" item_detail_rt_phase_voltage_a"));
-//        item_detail_rt_phase_voltage_b.setText(bundle.getString(" item_detail_rt_phase_voltage_b"));
-//        item_detail_rt_phase_voltage_c.setText(bundle.getString("  item_detail_rt_phase_voltage_c"));
-//
-//        item_detail_rt_line_voltage_ab.setText(bundle.getString("  item_detail_rt_line_voltage_ab"));
-//        item_detail_rt_phase_voltage_bc.setText(bundle.getString("  item_detail_rt_phase_voltage_bc"));
-//        item_detail_rt_line_voltage_ca.setText(bundle.getString("  item_detail_rt_line_voltage_ca"));
-//
-//        item_detail_rt_phase_currente_a.setText(bundle.getString("  item_detail_rt_phase_currente_a"));
-//        item_detail_rt_phase_current_b.setText(bundle.getString("   item_detail_rt_phase_current_b"));
-//        item_detail_rt_phase_current_c.setText(bundle.getString("  item_detail_rt_phase_current_c"));
-//
-//        item_detail_rt_frequency.setText(bundle.getString("   item_detail_rt_frequency"));
-//        item_detail_rt_total_kWh.setText(bundle.getString(" item_detail_rt_total_kWh"));
-//    }
+
 
     private void initData() {
         Bundle bundle = getIntent().getExtras();
 //        getIntent().getStringExtra()
 
-        item_detail_rt_objectname.setText(bundle.getString(" item_detail_rt_objectname"));
-        item_detail_rt_ymd.setText(bundle.getString(" item_detail_rt_ymd"));
-        item_detail_rt_hm.setText(bundle.getString(" item_detail_rt_hm"));
+        item_detail_rt_objectname.setText(bundle.getString("item_detail_rt_objectname"));
+        item_detail_rt_ymd.setText(bundle.getString("item_detail_rt_ymd"));
+        item_detail_rt_hm.setText(bundle.getString("item_detail_rt_hm"));
 
-        item_detail_rt_phase_voltage_a.setText(bundle.getString(" item_detail_rt_phase_voltage_a"));
-        item_detail_rt_phase_voltage_b.setText(bundle.getString(" item_detail_rt_phase_voltage_b"));
-        item_detail_rt_phase_voltage_c.setText(bundle.getString("  item_detail_rt_phase_voltage_c"));
+        item_detail_rt_phase_voltage_a.setText(bundle.getString("item_detail_rt_phase_voltage_a"));
+        item_detail_rt_phase_voltage_b.setText(bundle.getString("item_detail_rt_phase_voltage_b"));
+        item_detail_rt_phase_voltage_c.setText(bundle.getString("item_detail_rt_phase_voltage_c"));
 
-        item_detail_rt_line_voltage_ab.setText(bundle.getString("  item_detail_rt_line_voltage_ab"));
-        item_detail_rt_phase_voltage_bc.setText(bundle.getString("  item_detail_rt_phase_voltage_bc"));
-        item_detail_rt_line_voltage_ca.setText(bundle.getString("  item_detail_rt_line_voltage_ca"));
+        item_detail_rt_line_voltage_ab.setText(bundle.getString("item_detail_rt_line_voltage_ab"));
+        item_detail_rt_phase_voltage_bc.setText(bundle.getString("item_detail_rt_phase_voltage_bc"));
+        item_detail_rt_line_voltage_ca.setText(bundle.getString("item_detail_rt_line_voltage_ca"));
 
-        item_detail_rt_phase_currente_a.setText(bundle.getString("  item_detail_rt_phase_currente_a"));
-        item_detail_rt_phase_current_b.setText(bundle.getString("   item_detail_rt_phase_current_b"));
-        item_detail_rt_phase_current_c.setText(bundle.getString("  item_detail_rt_phase_current_c"));
+        item_detail_rt_phase_currente_a.setText(bundle.getString("item_detail_rt_phase_currente_a"));
+        item_detail_rt_phase_current_b.setText(bundle.getString("item_detail_rt_phase_current_b"));
+        item_detail_rt_phase_current_c.setText(bundle.getString("item_detail_rt_phase_current_c"));
 
-        item_detail_rt_frequency.setText(bundle.getString("   item_detail_rt_frequency"));
-        item_detail_rt_total_kWh.setText(bundle.getString(" item_detail_rt_total_kWh"));
+        item_detail_rt_frequency.setText(bundle.getString("item_detail_rt_frequency"));
+        item_detail_rt_total_kWh.setText(bundle.getString("item_detail_rt_total_kWh"));
 
 
-        Log.d(TAG,"cc  :"+  getIntent().getStringExtra(" item_detail_rt_objectname"));
+        Log.d(TAG,"cc  :"+  getIntent().getStringExtra("item_detail_rt_objectname"));
     }
 
 //    private void initView(View view) {

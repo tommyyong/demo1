@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">能效管理 </string>
+
+    <string name="account">输入账号</string>
+    <string name="password">输入密码</string>
+    <string name="login">登 录</string>
+    <string name="register2">注册新帐号</string>
+    <string name="actionbar_more">更多信息</string>
+</resources>

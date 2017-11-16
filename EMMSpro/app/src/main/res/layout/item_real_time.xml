@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+
+        <variable
+            name="realtimedataBean"
+            type="com.hxxn.emmspro.bean.RealTimeDataBean" />
+    </data>
+
+<LinearLayout
+    android:id="@+id/rt_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item_rt_titlename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="负二楼照明"
+            android:textStyle="bold"
+            android:textSize="@dimen/item_real_time_title"
+            android:textColor="@color/itemRealTimeTitle"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a相电压 :"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+        <TextView
+            android:id="@+id/item_rt_phase_voltage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="239.75"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ab线电压 :"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+        <TextView
+            android:id="@+id/item_rt_line_voltage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="239.75"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a相电流 :"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+        <TextView
+            android:id="@+id/item_rt_phase_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.17"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="累计电量 ："
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+        <TextView
+            android:id="@+id/item_rt_total_kWh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="434.42"
+            android:textSize="@dimen/item_real_time_content"
+            android:textColor="@color/itemRealTimeContent"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+    </layout>

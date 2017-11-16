@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.hxxn.eems.MainActivity;
 import com.hxxn.eems.R;
 
 import com.hxxn.eems.adapter.RealTimeDataAdapter;
@@ -40,7 +41,7 @@ public class RealTimeFragment extends Fragment {
     private  List<RealTimeData> realTimeData;
     private XRecyclerView mRecyclerView;
     private RealTimeDataAdapter realTimeDataAdapter;
-    private Activity mActivity;
+    private MainActivity mActivity;
 
 //    private SendRTdata sendRTdata;
 //    public interface SendRTdata{
@@ -185,7 +186,7 @@ public class RealTimeFragment extends Fragment {
 
     public void onAttach(Context context) {
         super.onAttach(context);
-        mActivity = (Activity) context;
+        mActivity = (MainActivity) context;
 
     }
 
