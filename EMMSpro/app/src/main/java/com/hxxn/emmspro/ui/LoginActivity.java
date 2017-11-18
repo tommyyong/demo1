@@ -51,9 +51,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_login);
         Boolean isFirst= SPUtils.getBoolean("isFirst",false);
-         if(isFirst){
-             MainActivity.start(LoginActivity.this);
-         }
+//         if(isFirst){
+//             MainActivity.start(LoginActivity.this);
+//         }
         initView();
         initListener();
 
@@ -113,7 +113,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     @Override
                     public void onSuccess(String s, Call call, Response response) {
                         Log.d(TAG,"登录成功！");
-                        SPUtils.putBoolean("isFirst",true);
+//                        SPUtils.putBoolean("isFirst",true);
                         SPUtils.putString("username",account);
                         MainActivity.start(LoginActivity.this);
                     }
